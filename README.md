@@ -7,6 +7,8 @@ I used there java programing language and for database I am using MYsql.
 
 I have created there 3 tables crime, criminal, police station. they are connected to each other.
 
+# Tables (ER daigram)
+
 My project will start from Main class which is inside Demos package.
 
 In My application you can login or logOut With id, Password.
