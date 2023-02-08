@@ -9,6 +9,9 @@ I have created there 3 tables crime, criminal, police station. they are connecte
 
 # Tables (ER daigram)
 
+<img width="276" alt="Screenshot_20230208_193610" src="https://user-images.githubusercontent.com/101391397/217553921-aa92dc25-f226-43f9-8a8d-884c47bce4bc.png">
+
+
 My project will start from Main class which is inside Demos package.
 
 In My application you can login or logOut With id, Password.
