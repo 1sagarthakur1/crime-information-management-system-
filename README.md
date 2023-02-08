@@ -9,7 +9,7 @@ I have created there 3 tables crime, criminal, police station. they are connecte
 
 # Tables (ER daigram)
 
-<img width="501" alt="Screenshot_20230208_194458" src="https://user-images.githubusercontent.com/101391397/217554577-3f3da174-b78f-42ac-b165-19d236e08462.png">
+<img width="601" alt="Screenshot_20230208_194458" src="https://user-images.githubusercontent.com/101391397/217554577-3f3da174-b78f-42ac-b165-19d236e08462.png">
 
 
 My project will start from Main class which is inside Demos package.
