@@ -52,10 +52,12 @@ public interface CrimeDao {
 //	for count all crime
 	public int forcountAllcrime() throws CrimeException;
 	
+	public int forcountPoliceStationCrime(String PSLid) throws CrimeException;
+	
 //	for count all criminal
 	public int forcountAllcriminal()throws CrimnalException;
 	
 //	for Delete Crime and Criminal
-	public String forDeleteCrime(int crid)throws CrimeException;
+	public int forDeleteCrime(String PSLid)throws CrimeException;
 
 }

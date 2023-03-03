@@ -11,13 +11,15 @@ public class CrimesAndCriminals {
     private String crdetailString;
     private String crmarrestareaString;
     private String cvictimString;
+	private String policeStationString;
+	private int    policeID;
 	public CrimesAndCriminals() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 	public CrimesAndCriminals(String crmNameString, int age, String crmgenderString, String crmaddressString,
 			String crmMarkString, String cdateString, String crTypeString, String crdetailString,
-			String crmarrestareaString, String cvictimString) {
+			String crmarrestareaString, String cvictimString, String policeStationString, int policeID) {
 		super();
 		this.crmNameString = crmNameString;
 		this.age = age;
@@ -29,6 +31,8 @@ public class CrimesAndCriminals {
 		this.crdetailString = crdetailString;
 		this.crmarrestareaString = crmarrestareaString;
 		this.cvictimString = cvictimString;
+		this.policeStationString = policeStationString;
+		this.policeID = policeID;
 	}
 	public String getCrmNameString() {
 		return crmNameString;
@@ -90,13 +94,25 @@ public class CrimesAndCriminals {
 	public void setCvictimString(String cvictimString) {
 		this.cvictimString = cvictimString;
 	}
+	public String getPoliceStationString() {
+		return policeStationString;
+	}
+	public void setPoliceStationString(String policeStationString) {
+		this.policeStationString = policeStationString;
+	}
+	public int getPoliceID() {
+		return policeID;
+	}
+	public void setPoliceID(int policeID) {
+		this.policeID = policeID;
+	}
 	@Override
 	public String toString() {
 		return "CrimesAndCriminals [crmNameString=" + crmNameString + ", age=" + age + ", crmgenderString="
 				+ crmgenderString + ", crmaddressString=" + crmaddressString + ", crmMarkString=" + crmMarkString
 				+ ", cdateString=" + cdateString + ", crTypeString=" + crTypeString + ", crdetailString="
 				+ crdetailString + ", crmarrestareaString=" + crmarrestareaString + ", cvictimString=" + cvictimString
-				+ "]";
+				+ ", policeStationString=" + policeStationString + ", policeID=" + policeID + "]";
 	}
 	
     

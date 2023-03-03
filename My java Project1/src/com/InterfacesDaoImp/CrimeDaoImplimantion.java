@@ -522,7 +522,7 @@ public class CrimeDaoImplimantion implements CrimeDao {
 		int i = 0;
 		try {
 			System.out.println();
-			System.out.print("Enter Criminal ID : ");
+			System.out.print("Enter Crime ID : ");
 			int Crid = scanner.nextInt();
 			try(Connection connection = GetConnectionFromDBMS.tackConnection()){
 				PreparedStatement pStatement =	connection.prepareStatement("delete cr,c from criminal as cr INNER JOIN crimes as c on cr.crid = c.crid INNER JOIN policestation as p on c.psid = p.PSid WHERE c.crid = ? and p.PSloginid = ?");
